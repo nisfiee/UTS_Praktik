@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int n;
+	cout<< "\t Membuat Bintang" <<endl;
+	cout<< "\t-----------------" <<endl;
+
+	cout<< " Masukkan N = ";
+	cin>>n;
+	cout<<endl;
+
+	for (int a = 0; a<n; a++)
+	{
+		for(int b = n; b>a; b--)
+			cout<< " *";
+			cout<< endl;
+	}
+
+	
+
+}
