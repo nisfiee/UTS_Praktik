@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int pilih;
+	cout<<"\t Menentukan Hari" <<endl;
+	cout<<"\t-----------------" <<endl <<endl;
+	cout<<" Masukkan angka = ";
+	cin>>pilih;
+
+	if(pilih==1)
+	{cout<< " Senin" <<endl; }
+
+	else if(pilih==2)
+	{cout<< " Selasa" <<endl; }
+
+	else if(pilih==3)
+	{cout<< " Rabu" <<endl; }
+
+	else if(pilih==4)
+	{cout<< " Kamis" <<endl; }
+
+	else if(pilih==5)
+	{cout<< " Jumat" <<endl; }
+
+	else if(pilih==6)
+	{cout<< " Sabtu" <<endl; }
+
+	else if(pilih==7)
+	{cout<< " Minggu" <<endl; }
+
+	else
+	{cout<< " Maaf, hari yang anda inginkan tidak tersedia" <<endl <<endl;}
+	
+	
+
+}
