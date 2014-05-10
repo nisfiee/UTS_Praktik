@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+void main()
+{
+	int angka;
+	
+	cout<< "\t Menentukan Angka Ganjil Genap" <<endl;
+	cout<< "\t-------------------------------" <<endl;
+	cout<< " Masukkan angka = ";
+	cin>>angka;
+	cout<<endl;
+
+	if(angka%2)
+		{cout<< " Ganjil" <<endl <<endl;}
+	else if(angka==0)
+		{cout<< " Bukan termasuk angka ganjil maupun genap" <<endl <<endl; }
+	else 
+		{cout<< " Genap" <<endl <<endl; }
+	
+
+
+}
